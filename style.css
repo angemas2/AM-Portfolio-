@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 600px;
-  font-size: 68px!important;
+  font-size: 68px !important;
   color: white;
   margin-top: 0px;
 }
@@ -18,7 +18,7 @@ h2 {
   font-size: 36px;
   font-weight: normal;
   color: white;
-  margin: 0px!important;
+  margin: 0px !important;
 }
 
 .hero {
@@ -44,10 +44,22 @@ h2 {
   padding-top: 155px;
 }
 
-.hero img{
-width: 900px;
-    position: relative;
-    top: -167px;
-    left: -200px;
-    margin-right: 50px;
+.hero img {
+  width: 900px;
+  position: relative;
+  top: -167px;
+  left: -200px;
+  margin-right: 200px;
+}
+
+@media (max-width: 768px) {
+  .hero img {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-title {
+    padding-top: 120px;
+  }
 }
