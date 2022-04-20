@@ -25,6 +25,7 @@ h2 {
   background-color: black;
   padding-inline-end: 160px 20px;
   max-height: 546px;
+  width: 100%;
 }
 .hero a {
   text-decoration: none;
