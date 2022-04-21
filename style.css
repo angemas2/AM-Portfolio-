@@ -132,10 +132,9 @@ p {
 }
 
 @media (max-width: 915px) {
-
-    h1{
-        font-size: 50px!important
-    }
+  h1 {
+    font-size: 50px !important;
+  }
   .hero {
     text-align: center;
   }
@@ -158,15 +157,12 @@ p {
     font-size: 11px;
   }
 
-
-
   #contact-me {
     font-size: 18px !important;
   }
 
-  .about-me a{
-      display: block;
-      margin: 10px auto!important;
-    
+  .about-me a {
+    display: block;
+    margin: 10px auto !important;
   }
 }
