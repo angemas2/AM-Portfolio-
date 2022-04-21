@@ -101,6 +101,7 @@ p {
   position: relative;
   top: -116px;
   left: -400px;
+  opacity: 70%;
 }
 
 .subheading {
@@ -136,6 +137,18 @@ p {
 .my-work {
   background: #f3f9fa;
   padding-bottom: 80px;
+}
+
+.about-section h1,h2{
+    color: black;
+}
+
+.about-section{
+    padding: 160px 20px;
+}
+
+.about-section-content{
+    margin: 30px 30px ;
 }
 
 @media (max-width: 915px) {
