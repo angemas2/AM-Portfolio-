@@ -32,39 +32,36 @@ h3 {
 h4 {
   font-family: "Playfair Display", serif;
   font-size: 50px;
-  padding-top: 30px
+  padding-top: 30px;
 }
 
-h6{
-     font-family: "Playfair Display", serif;
-     color: var(--secondary-color);
-     font-size: 25px!important;
-     font-weight: 900!important;
-     margin: 0px!important;
+h6 {
+  font-family: "Playfair Display", serif;
+  color: var(--secondary-color);
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  margin: 0px !important;
 }
 
-.footer{
-    background: black;
-    padding:60px 0px;
-    display: flex;
-    justify-content: space-around;
+.footer {
+  background: black;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
-
-.tools{
-    font-family: "Playfair Display", serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: var(--secondary-color);
+.tools {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--secondary-color);
 }
-
 
 p {
   opacity: 70%;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-
 }
 
 .hero {
@@ -108,30 +105,28 @@ p {
   margin-bottom: 5px;
 }
 
-.btn-color{
-    color: white;
-    background: var(--secondary-color);
-    border-radius: 15px;
-    padding: 10px 25px;
-    text-decoration: none;
-    border: 1px solid var(--secondary-color);
+.btn-color {
+  color: white;
+  background: var(--secondary-color);
+  border-radius: 15px;
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px solid var(--secondary-color);
 }
 
-.btn-transparent{
-     background: white;
-    color: var(--secondary-color);
-    border-radius: 15px;
-    border: 1px solid var(--secondary-color);
-    padding: 10px 25px;
-    text-decoration: none;
-
+.btn-transparent {
+  background: white;
+  color: var(--secondary-color);
+  border-radius: 15px;
+  border: 1px solid var(--secondary-color);
+  padding: 10px 25px;
+  text-decoration: none;
 }
 
-.my-work{
-    background: #F3F9FA;
-    padding-bottom: 80px;
+.my-work {
+  background: #f3f9fa;
+  padding-bottom: 80px;
 }
-
 
 @media (max-width: 900px) {
   .hero {
@@ -142,7 +137,12 @@ p {
     padding-left: 0px !important;
   }
 
-  .about-me{
-      text-align: center;
+  .about-me,
+  .my-work {
+    text-align: center;
+  }
+
+  .project-img{
+      display: none;
   }
 }
