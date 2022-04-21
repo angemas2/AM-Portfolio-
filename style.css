@@ -146,6 +146,11 @@ p {
     font-weight: 900;
 }
 
+.about-section h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .about-section{
     padding: 160px 20px;
 }
@@ -153,6 +158,7 @@ p {
 .about-section-content{
     margin: 30px 30px ;
 }
+
 
 @media (max-width: 915px) {
   h1 {
