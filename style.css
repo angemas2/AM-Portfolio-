@@ -8,7 +8,6 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 600px;
   font-size: 62px !important;
   color: white;
   margin-top: 0px;
@@ -143,6 +142,10 @@ p {
     color: black;
 }
 
+.about-section h1{
+    font-weight: 900;
+}
+
 .about-section{
     padding: 160px 20px;
 }
@@ -187,5 +190,10 @@ p {
     margin: 10px auto !important;
   }
 
+
+  .about-section{
+      padding:0px;
+      text-align: center;
+  }
 
 }
