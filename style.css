@@ -31,7 +31,7 @@ h3 {
 
 h4 {
   font-family: "Playfair Display", serif;
-  font-size: 50px!important;
+  font-size: 50px !important;
   padding-top: 30px;
 }
 
@@ -103,7 +103,7 @@ p {
   font-weight: 500;
   text-align: center;
   margin-bottom: 5px;
-  padding-top:50px;
+  padding-top: 50px;
 }
 
 .btn-color {
@@ -113,6 +113,7 @@ p {
   padding: 10px 25px;
   text-decoration: none;
   border: 1px solid var(--secondary-color);
+  width: 200px;
 }
 
 .btn-transparent {
@@ -122,6 +123,7 @@ p {
   border: 1px solid var(--secondary-color);
   padding: 10px 25px;
   text-decoration: none;
+  width: 200px;
 }
 
 .my-work {
@@ -130,6 +132,10 @@ p {
 }
 
 @media (max-width: 915px) {
+
+    h1{
+        font-size: 50px!important
+    }
   .hero {
     text-align: center;
   }
@@ -144,21 +150,23 @@ p {
     text-align: center;
   }
 
-
   .footer img {
     width: 80px;
   }
 
-  .footer a{
-      font-size: 11px;
-  }
-
-  .btn-transparent, .btn-color{
-      padding: 10px 15px;
-  }
-  #contact-me{
-      font-size: 18px!important;
+  .footer a {
+    font-size: 11px;
   }
 
 
+
+  #contact-me {
+    font-size: 18px !important;
+  }
+
+  .about-me a{
+      display: block;
+      margin: 10px auto!important;
+    
+  }
 }
