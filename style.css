@@ -43,6 +43,13 @@ h6 {
   margin: 0px !important;
 }
 
+p {
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 .footer {
   background: black;
   padding: 40px 0px;
@@ -57,12 +64,7 @@ h6 {
   color: var(--secondary-color);
 }
 
-p {
-  opacity: 70%;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-}
+
 
 .hero {
   background-color: black;
