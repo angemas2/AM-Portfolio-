@@ -21,12 +21,35 @@ h2 {
   margin: 0px !important;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  padding-top: 30px
+}
+
+p {
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
 .hero {
   background-color: black;
   padding-inline-end: 160px 20px;
   max-height: 546px;
   width: 100%;
 }
+
 .hero a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -41,23 +64,56 @@ h2 {
 }
 
 .hero-title {
-  margin-left: 155px;
   padding: 150px 0px;
+  padding-left: 200px !important;
 }
 
 .hero img {
-  width: 900px;
+  width: 700px;
   position: relative;
-  top: -167px;
+  top: -116px;
   left: -200px;
-  margin-right: 200px;
 }
+
+.subheading {
+  color: var(--secondary-color);
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.btn-color{
+    color: white;
+    background: var(--secondary-color);
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid var(--secondary-color);
+}
+
+.btn-transparent{
+     background: white;
+    color: var(--secondary-color);
+    border-radius: 15px;
+    border: 1px solid var(--secondary-color);
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+
 
 @media (max-width: 900px) {
   .hero {
     text-align: center;
   }
-  .hero-title{
+  .hero-title {
     padding-top: 80px;
+    padding-left: 0px !important;
+  }
+
+  .about-me{
+      text-align: center;
   }
 }
