@@ -31,7 +31,7 @@ h3 {
 
 h4 {
   font-family: "Playfair Display", serif;
-  font-size: 50px;
+  font-size: 50px!important;
   padding-top: 30px;
 }
 
@@ -103,6 +103,7 @@ p {
   font-weight: 500;
   text-align: center;
   margin-bottom: 5px;
+  padding-top:50px;
 }
 
 .btn-color {
@@ -132,6 +133,7 @@ p {
   .hero {
     text-align: center;
   }
+
   .hero-title {
     padding-top: 80px;
     padding-left: 0px !important;
@@ -142,9 +144,6 @@ p {
     text-align: center;
   }
 
-  .project-img{
-      display: none;
-  }
 
   .footer img {
     width: 80px;
@@ -152,7 +151,10 @@ p {
 
   .footer a{
       font-size: 11px;
+  }
 
+  #contact-me{
+      font-size: 18px!important;
   }
 
 }
