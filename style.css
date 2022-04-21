@@ -145,4 +145,14 @@ p {
   .project-img{
       display: none;
   }
+
+  .footer img {
+    width: 80px;
+  }
+
+  .footer a{
+      font-size: 11px;
+
+  }
+
 }
