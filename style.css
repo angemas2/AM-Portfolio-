@@ -129,7 +129,7 @@ p {
   padding-bottom: 80px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 915px) {
   .hero {
     text-align: center;
   }
@@ -153,8 +153,12 @@ p {
       font-size: 11px;
   }
 
+  .btn-transparent, .btn-color{
+      padding: 10px 15px;
+  }
   #contact-me{
       font-size: 18px!important;
   }
+
 
 }
