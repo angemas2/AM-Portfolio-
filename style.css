@@ -183,17 +183,16 @@ h2 {
   margin-top: 40px;
   font-size: 18px;
   color: white;
-  opacity: 70%;
 }
 
 .nav-links li :hover {
   color: var(--secondary-color);
 }
 
-.nav-links a, .nav-links a:visited{
+.nav-links a,
+.nav-links a:visited {
   text-decoration: none;
   color: white;
-  opacity: 70%;
 }
 
 @media (max-width: 915px) {
