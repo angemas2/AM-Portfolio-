@@ -190,7 +190,7 @@ h2 {
   color: var(--secondary-color);
 }
 
-.nav-links :visited {
+.nav-links a, .nav-links a:visited{
   text-decoration: none;
   color: white;
   opacity: 70%;
