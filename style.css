@@ -95,9 +95,8 @@ p {
 
 .hero img {
   width: 700px;
-  position: relative;
-  top: -116px;
-  left: -400px;
+position:relative;
+top:34px;
   opacity: 70%;
 }
 
@@ -160,11 +159,14 @@ h2 {
 
 .nav {
   background: black;
+  opacity: 95%;
+  padding-bottom: 15px;
+
 }
 
 .logo {
   max-height: 20px;
-  margin: 40px 0px 0px 200px;
+  margin: 40px 0px 0px 150px;
 }
 
 .nav-links a {
@@ -195,6 +197,19 @@ h2 {
   color: white;
 }
 
+
+
+.bg-contact{
+    background-image: url("https://img.freepik.com/free-photo/creative-flat-lay-photo-workspace-desk_7861-978.jpg?w=1480&t=st=1650832315~exp=1650832915~hmac=1763d4efd7f9df99dfc41caae933472d49ebad768758c3fcee85abfccde4af4b");
+height: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-content{
+    color: var(--secondary-color);
+}
 @media (max-width: 915px) {
   h1 {
     font-size: 50px !important;
