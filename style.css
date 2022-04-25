@@ -172,7 +172,7 @@ h2 {
 }
 
 .logo {
-  max-height: 20px;
+  height: 20px;
   margin: 40px 0px 0px 0px;
 }
 
@@ -201,9 +201,6 @@ h2 {
   color: white;
 }
 
-.nav-links li :hover {
-  color: var(--secondary-color);
-}
 
 .nav-links a,
 .nav-links a:visited {
